@@ -18,7 +18,7 @@ public class SecondWarrior extends AppCompatActivity {
         setContentView(R.layout.activity_second_warrior);
 
         Intent firstWarrior = getIntent();
-        firstWarrior.getParcelableArrayListExtra("firstWarrior");
+        firstWarrior.getParcelableExtra("firstWarrior");
 
         final List<Warrior> warriorList = new ArrayList<>();
         ListView listViewWarrior = findViewById(R.id.lvSecondWarrior);
@@ -38,7 +38,7 @@ public class SecondWarrior extends AppCompatActivity {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
                 Warrior warrior2 = warriorList.get(position);
-                Intent intent = new Intent(SecondWarrior.this, SecondWarrior.class);
+                Intent intent = new Intent(SecondWarrior.this, EggsActivty.class);
                 intent.putExtra("secondWarrior", warrior2);
                 startActivity(intent);
 
