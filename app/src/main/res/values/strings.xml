@@ -1,4 +1,5 @@
 <resources>
     <string name="app_name">RoyalEasterArena</string>
     <string name="voici_ton_arm_e">Voici ton armée!</string>
+    <string name="title_activity_arena_round33">ArenaRound33</string>
 </resources>
