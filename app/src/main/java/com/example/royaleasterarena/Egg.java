@@ -39,11 +39,11 @@ public class Egg {
                                 String nameEgg = response.getString("name");
                                 String caliber = response.getString("caliber");
                                 String rarity = response.getString("rarity");
-                                /*String skills = response.getString("skills");
+                                String power = response.getString("power");
 
-                                int attackValue = Character.getNumericValue(skills.charAt(skills.length() - 1));*/
+                                int pvValue = Character.getNumericValue(power.charAt(power.length() - 1));
 
-                                EggModel egg = new EggModel(imageEgg, nameEgg, caliber, rarity, 25);
+                                EggModel egg = new EggModel(imageEgg, nameEgg, caliber, rarity, pvValue);
                                 eggs.add(egg);
 
 
