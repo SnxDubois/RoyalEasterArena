@@ -6,7 +6,7 @@
     android:layout_height="wrap_content">
 
     <ImageView
-        android:id="@+id/ivWarrior"
+        android:id="@+id/ivEgg"
         android:layout_width="125dp"
         android:layout_height="125dp"
         app:layout_constraintStart_toStartOf="parent"
@@ -14,59 +14,46 @@
         tools:srcCompat="@tools:sample/avatars" />
 
     <TextView
-        android:id="@+id/tvName"
+        android:id="@+id/tvNameEgg"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:padding="2sp"
         android:textSize="16sp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/ivWarrior"
+        app:layout_constraintStart_toEndOf="@+id/ivEgg"
         app:layout_constraintTop_toTopOf="parent"
         tools:text="Name" />
 
     <TextView
-        android:id="@+id/tvSpecies"
+        android:id="@+id/tvCaliber"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:padding="2sp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/ivWarrior"
-        app:layout_constraintTop_toBottomOf="@+id/tvName"
+        app:layout_constraintStart_toEndOf="@+id/ivEgg"
+        app:layout_constraintTop_toBottomOf="@+id/tvNameEgg"
         tools:text="Species" />
 
     <TextView
-        android:id="@+id/tvGender"
+        android:id="@+id/tvRarity"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:padding="2sp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/ivWarrior"
-        app:layout_constraintTop_toBottomOf="@+id/tvSpecies"
+        app:layout_constraintStart_toEndOf="@+id/ivEgg"
+        app:layout_constraintTop_toBottomOf="@+id/tvCaliber"
         tools:text="Gender" />
 
-    <TextView
-        android:id="@+id/tvOrigin"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/ivWarrior"
-        app:layout_constraintTop_toBottomOf="@+id/tvGender"
-        tools:text="Origin" />
 
     <TextView
-        android:id="@+id/tvPv"
+        android:id="@+id/tvPvEgg"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:padding="2sp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/ivWarrior"
-        app:layout_constraintTop_toBottomOf="@+id/tvOrigin"
+        app:layout_constraintStart_toEndOf="@+id/ivEgg"
+        app:layout_constraintTop_toBottomOf="@+id/tvRarity"
         tools:text="PV" />
-
-    <TextView
-        android:id="@+id/tvAttack"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/ivWarrior"
-        app:layout_constraintTop_toBottomOf="@+id/tvPv"
-        tools:text="Attack" />
 
 </android.support.constraint.ConstraintLayout>

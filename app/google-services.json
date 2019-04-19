@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "914069403753",
+    "firebase_url": "https://royaleasterarena.firebaseio.com",
+    "project_id": "royaleasterarena",
+    "storage_bucket": "royaleasterarena.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:914069403753:android:b1ead8e6d61162be",
+        "android_client_info": {
+          "package_name": "com.example.royaleasterarena"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "914069403753-t5p27d63908lomo5ct02tabef3cvjaea.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.royaleasterarena",
+            "certificate_hash": "6590c2064aacca2a8b68447d113d5e998dffc310"
+          }
+        },
+        {
+          "client_id": "914069403753-q8cje9jr7lfq3rkksnc53tghu913023u.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCcnOBEcgWEIeOQi8b-kx0j8WtEH7WFZ2s"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "914069403753-q8cje9jr7lfq3rkksnc53tghu913023u.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
