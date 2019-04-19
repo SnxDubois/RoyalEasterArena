@@ -43,8 +43,6 @@ public class SecondWarrior extends AppCompatActivity {
                 intent.putExtra("secondWarrior", warrior2);
                 startActivity(intent);
 
-
-
             }
         });
     }

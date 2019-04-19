@@ -1,6 +1,7 @@
 package com.example.royaleasterarena;
 
 import android.content.Intent;
+import android.os.Parcelable;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -45,13 +46,15 @@ public class EggsActivty extends AppCompatActivity {
                 EggModel egg1 = eggModelList.get(0);
                 EggModel egg2 = eggModelList.get(1);
                 EggModel egg3 = eggModelList.get(2);
+                final List<EggModel> eggList = new ArrayList<>();
+                eggList.add(egg1);
+                eggList.add(egg2);
+                eggList.add(egg3);
 
                 Intent intent = new Intent(EggsActivty.this, FirstEnnemyChoice.class);
                 intent.putExtra("firstWarrior", warrior1);
                 intent.putExtra("secondWarrior", warrior2);
-                /*intent.putExtra("firstEgg", egg1);
-                intent.putExtra("secondEgg", egg2);
-                intent.putExtra("thirdEgg", egg3);*/
+                //intent.putParcelableArrayListExtra("eggList", (ArrayList<? extends Parcelable>) eggList);
                 startActivity(intent);
 
             }
