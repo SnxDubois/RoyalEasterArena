@@ -13,7 +13,8 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         tools:ignore="ExtraText,GoogleAppIndexingWarning">
-        <activity android:name=".EggsActivty"></activity>
+        <activity android:name=".FirstEnnemyChoice"></activity>
+        <activity android:name=".EggsActivty" />
         <activity android:name=".SecondWarrior" />
         <activity android:name=".MainActivity">
             <intent-filter>
